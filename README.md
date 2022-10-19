@@ -1,6 +1,7 @@
 # \<menu-hamburguesa>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+Based in [juneikerc codepen](https://codepen.io/juneikerc/pen/QWyGORO?editors=0010)
 
 ## Installation
 
@@ -15,7 +16,14 @@ npm i menu-hamburguesa
   import 'menu-hamburguesa/menu-hamburguesa.js';
 </script>
 
-<menu-hamburguesa></menu-hamburguesa>
+<menu-hamburguesa>
+   <h2>Menu Hamb</h2>
+   <ul>
+      <li><a href="#">Enlace 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+   </ul>
+</menu-hamburguesa>
 ```
 
 ## Linting and formatting
