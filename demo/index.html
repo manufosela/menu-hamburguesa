@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background: #fafafa;
+      }
+      h2 {
+        color: green;
+      }
+      .menu1 {
+        --h2-color: red;
+      }
+    </style>
+    <script type="module" src="../menu-hamburguesa.js"></script>
+  </head>
+  <body>
+    <div id="demo">
+      <menu-hamburguesa class="menu1">
+        <h2>Menu Hamb</h2>
+        <ul>
+          <li><a href="#">Enlace 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </menu-hamburguesa>
+    </div>
+  </body>
+</html>
